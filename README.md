@@ -5,14 +5,6 @@
 
 <h3 align="center">Mythos</h3>
 
-<div align="center">
-
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/A-Silkwood/Mythos.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/A-Silkwood/Mythos.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-
-</div>
-
 ---
 
 <p align="center"> The Gods of Minecraft have taken notice of the mortal inhabitants.
