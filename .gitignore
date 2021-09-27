@@ -1,0 +1,5 @@
+.gradle
+build
+run
+src/generated
+src/test
