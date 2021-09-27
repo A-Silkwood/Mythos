@@ -15,9 +15,9 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
+- [Building and Distrubtion](#building_and_distrubtion)
+- [Testing](#testing)
 - [Built Using](#built_using)
-- [ToDo](../TODO.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
@@ -60,13 +60,19 @@ Forge only explicitly supports Eclipse but the other two IDEs should work fine w
 This should have generated even more folders and files that will be needed for development and building the project
 
 
-## 🔧 Building
+## 🚀 Building and Distrubtion <a name = "building_and_distrubtion"></a>
 
-**TODO** - haven't built anything yet
+To build the mod run `gradlew build` for Windows or `./gradlew build` if you are on Mac/Linux
+This will output a file in `build/libs` with the name [archivesBaseName]-[version].jar. This file can be placed in the mods folder of a Forge enabled Minecraft setup or distributed.
 
-## 🚀 Deployment <a name = "deployment"></a>
+`archivesBaseName` and `version` can be found in `build.gradle`
 
-**TODO** - haven't built anything yet
+## 🔧 Testing <a name = "testing"></a>
+
+1. Build the mod using the command in the above section.
+2. You can then run `gradlew runClient` if you are on Windows or `./gradlew runClient` if you are on Mac/Linux.
+    - This will run a Minecraft client from your `<runDir>` with all mods in this project included.
+3. You can also run a dedicated server using the server run config or via `gradlew runServer` if you are on Windows or `./gradlew runServer` if you are on Mac/Linux. This will launch the Minecraft server with its GUI. After the first run, the server will shut down immediately until the Minecraft EULA is accepted by editing `run/eula.txt`. Once accepted, the server will load and can be accessed via a direct connect to `localhost`.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
